@@ -26,7 +26,7 @@
 .nav-pills>li>a:hover {
 	background-color: #346270;
 }
-
+    
     .navbar-inverse {
     padding: 1%;
     border-radius: 0px;             /*Убирает скругление углов в navbar*/
@@ -39,7 +39,7 @@
 		float: none;
 	}
 	.nav-pills {
-		text-align: center;
+		text-align: center; 
 
 	}
 	.header h1 {
@@ -47,11 +47,11 @@
 		font-size: 280%;
 	}
 	.header {
-		text-align: center;
-
+		text-align: center; 
+		
 	}
 
-
+	
 }
 
 .clear {
@@ -103,7 +103,7 @@ html, body {
 .panel-info>.panel-heading {
 	background-color: #f0ad4e;
 	color: white;
-	border-color: transparent;
+	border-color: transparent; 
 }
 
 .sidebar-header {
@@ -131,6 +131,7 @@ html, body {
 .badge {
 	background-color: #000000;
 }
+
 .info-block {
 	font-size: 120%;
 
@@ -147,6 +148,10 @@ html, body {
 
 textarea.form-control {
 	height: 200px;
+}
+
+.table tbody>tr>td.vert-align {
+	vertical-align: middle;
 }
 
 footer {
